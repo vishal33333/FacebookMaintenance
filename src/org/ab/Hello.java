@@ -2,14 +2,12 @@ package org.ab;
 
 public abstract class Hello {
 	
-	
-	
-	abstract  void metho();
-	
+public static void username() {
+System.out.println("username");
+}	
 
-public static void main(String[] args) {
-	//Hello H = new Hello();
-	
-	
-}
+	public static void main(String[] args) {
+		username();
+	}
+
 }
