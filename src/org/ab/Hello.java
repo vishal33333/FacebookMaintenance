@@ -1,12 +1,16 @@
 package org.ab;
 
-public abstract class Hello {
-	
-public static void username() {
-System.out.println("username");
-}	
+public class Hello {
 
-	public static void main(String[] args) {
+	public static void username() {
+		System.out.println("username");
+	}
+
+	public static void password() {
+		System.out.println("password");
+	}
+    public static void main(String[] args) {
+		password();
 		username();
 	}
 
