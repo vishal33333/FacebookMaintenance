@@ -1,15 +1,14 @@
 package org.ab;
 
-public abstract class Hello {
+public  class Hello {
 	
+	public static void password() {
+System.out.println("password");
+	}
 	
-	
-	abstract  void metho();
-	
-
 public static void main(String[] args) {
-	//Hello H = new Hello();
-	
+	password();
+}
 	
 }
-}
+
